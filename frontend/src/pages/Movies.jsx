@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import GlobalApi from "../services/GlobalApi";
 import TrailerModal from "../components/TrailerModal";
 import { addToWatchlist } from "../utils/watcjlist";
+import Header from '../components/Header'
 
 const Movies = () => {
   const [genres, setGenres] = useState([]);
